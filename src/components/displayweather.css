@@ -2,6 +2,10 @@
     margin-top: 20px;
     display: flex;
     flex-flow: column nowrap;
+    
+  }
+  .weather{
+    background-color: rgb(249, 252, 255);
   }
   
   .displayweather .maincard {
@@ -11,7 +15,7 @@
     padding: 50px;
     border-radius: 20px;
     position: relative;
-    background: rgb(245, 242, 242);
+    background: rgb(200, 219, 225);
     border: 1px solid black;
   }
   
@@ -26,7 +30,9 @@
     position: absolute;
     left: 10px;
   
-    color: grey;
+    color: rgb(2, 2, 10);
+    
+  
     margin-top: -8px;
   }
   .displayweather h1 {
@@ -36,7 +42,7 @@
   }
   
   .displayweather .weather-icon {
-    width: 100px;
+    width: 80px;
   
     position: absolute;
     top: 50px;
